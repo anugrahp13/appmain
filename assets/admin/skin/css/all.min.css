@@ -1,0 +1,97 @@
+html {
+	position: relative;
+}
+body {
+	margin-bottom: 100px;
+	margin-top: 30px;
+}
+hr {
+	width: 250px;
+	border-top: 3px solid #0d47a1;
+}
+section {
+	min-height: 600px;
+}
+footer {
+	padding-top: 30px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #333;
+}
+footer p {
+	color: #aaa;
+	font-size: 0.9em;
+	margin-top: 10px;
+}
+footer a i {
+	color: #fff;
+	margin-right: 6px;
+}
+footer a .fa-facebook-square:hover {
+	color: #3b5998;
+}
+footer a .fa-youtube-play:hover {
+	color: #e62117;
+}
+footer a .fa-instagram:hover {
+	color: #276589;
+}
+.navbar a img {
+	width: 20px;
+	height: 20px;
+	background-color: #284480 !important;
+}
+.jumbotron {
+	height: 400px;
+	color: #eaeaea;
+	background-image: url(http://192.168.7.5/appmain/assets/admin/skin/img/doodle.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 -100px;
+	overflow: hidden;
+}
+.jumbotron h1, .jumbotron p {
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+	color: #eaeaea;
+}
+.jumbotron img {
+	width: 200px;
+	border: 4px solid #eaeaea;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+.pLeft, .pRight {
+	text-align: justify;
+	opacity: 0;
+	transition: 1s;
+	transform: translate(-50px, 0) rotate(15deg);
+}
+.pRight {
+	transform: translate(50px, 0) rotate(-15deg);
+}
+.pLeft.pShow, .pRight.pShow {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+.program {
+	background-color: #eee;
+}
+.program .thumbnail {
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+.program .thumbnail.show {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+.contact {
+	min-height: 800px;
+}
+
+
+
+
+
+
